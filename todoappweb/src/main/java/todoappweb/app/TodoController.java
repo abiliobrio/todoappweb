@@ -14,7 +14,7 @@ public class TodoController {
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String hello(Model model){
-		model.addAttribute("nome" , "Janete");
+		model.addAttribute("nome" , "Teste");
 		return "bemvindo";
 	}
 
